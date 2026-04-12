@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "nombre del hotel: ": "juan",
+        "ciudad del hotel": "cucuta"
+    },
+    {
+        "id": 2,
+        "nombre del hotel: ": "las",
+        "ciudad del hotel": "bogota",
+        "habitaciones": [
+            {
+                "id": 1,
+                "numero": "101",
+                "disponible": true
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "nombre del hotel: ": "hotel maravilla",
+        "ciudad del hotel": "bucaramanga"
+    }
+]

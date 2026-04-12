@@ -1,0 +1,152 @@
+
+🚀 Proyecto: Sistema de Reservas de Hotel (modo consola)
+
+Este está MUY alineado con cosas reales y además conecta con lo que ya has visto en tu proyecto Java 👀
+
+🧠 Idea general
+
+message.txt
+3 KB
+﻿
+Brayan Steven Riaño Fuentes
+riboxcrk
+ 
+🚀 Proyecto: Sistema de Reservas de Hotel (modo consola)
+
+Este está MUY alineado con cosas reales y además conecta con lo que ya has visto en tu proyecto Java 👀
+
+🧠 Idea general
+
+Un sistema donde puedas:
+
+Registrar hoteles
+Crear habitaciones
+Hacer reservas
+Ver disponibilidad
+Guardar todo en JSON
+🧩 Estructura de datos (más compleja)
+
+Aquí ya no es una sola lista… ahora tienes relaciones.
+
+🏨 Hotel
+hotel = {
+    "id": 1,
+    "nombre": "Hotel Paraíso",
+    "ciudad": "Cúcuta",
+    "habitaciones": []
+}
+🛏️ Habitación
+habitacion = {
+    "id": 101,
+    "tipo": "doble",
+    "precio": 80000,
+    "disponible": True
+}
+📅 Reserva
+reserva = {
+    "id": 1,
+    "hotel_id": 1,
+    "habitacion_id": 101,
+    "cliente": "Brayan",
+    "fecha": "2026/04/10"
+}
+🔥 Aquí está la complejidad real
+
+Ahora tienes que manejar:
+
+Relaciones entre datos (hotel → habitaciones)
+Búsquedas por ID
+Cambios de estado (disponible / no disponible)
+Validaciones
+📋 Menú principal
+1. Crear hotel
+2. Agregar habitación a hotel
+3. Listar hoteles
+4. Ver habitaciones de un hotel
+5. Hacer reserva
+6. Cancelar reserva
+7. Ver reservas
+8. Salir
+⚙️ Funcionalidades clave
+🏨 Crear hotel
+Guardar nombre y ciudad
+🛏️ Agregar habitación
+Buscar hotel por ID
+Agregar habitación dentro de su lista
+📅 Hacer reserva (IMPORTANTE)
+Elegir hotel
+Elegir habitación disponible
+Marcar habitación como no disponible
+❌ Cancelar reserva
+Eliminar reserva
+Volver a poner habitación como disponible
+🔍 Ver disponibilidad
+Mostrar solo habitaciones libres
+🧠 Lo que realmente vas a aprender
+
+Este proyecto te obliga a entender:
+
+🔗 Relaciones entre datos (muy importante en programación real)
+🔄 Cambios de estado
+🔍 Búsquedas dentro de estructuras anidadas
+🧱 Diseño de lógica más estructurada
+📂 Modularización recomendada
+main.py
+hoteles.py
+habitaciones.py
+reservas.py
+data.py
+🔥 Retos avanzados (esto es lo bueno)
+💀 Reto 1:
+
+Evitar reservar una habitación ya ocupada
+
+💀 Reto 2:
+
+IDs automáticos SIN repetirse (aunque borres cosas)
+
+💀 Reto 3:
+
+Buscar hoteles por ciudad
+
+💀 Reto 4:
+
+Mostrar estadísticas:
+
+Total hoteles
+Habitaciones disponibles
+Reservas activas
+💀 Reto 5 (nivel dios 😈):
+
+Permitir múltiples fechas (check-in / check-out)
+→ Aquí ya simulas algo tipo Booking
+
+🚨 Por qué este proyecto es MUCHO más complejo
+
+Porque:
+
+Ya no es una lista simple ❌
+Manejas estructuras dentro de estructuras 🔥
+Tienes lógica dependiente entre datos ⚠️
+Simula un sistema real 💼
+💡 Te digo algo importante
+
+Si logras hacer este proyecto:
+
+Ya estás tocando nivel de backend básico real
+Te prepara directamente para:
+bases de datos (SQL)
+APIs
+frameworks
+
+Si quieres, en el siguiente paso puedo:
+
+darte el diagrama mental del flujo
+o 
+ayudarte a empezar con la estructura base sin resolvértelo
+o 
+ir módulo por módulo contigo (como profe 😎)
+
+Tú decides qué tan hardcore lo quieres 💀
+message.txt
+3 KB
