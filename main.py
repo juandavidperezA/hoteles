@@ -39,3 +39,5 @@ bienvenido al sistema de holteles de colombia
         elif opcion==2:
             print("saliendo...")
             break
+        
+cuenta()

@@ -1,6 +1,6 @@
-from todo import crear
-from todo import habitaciones_hotel
-from todo import lista
+from modulos.lista import lista
+from modulos.habitaciones import habitaciones_hotel
+from modulos.crear import crear
 
 def menu():
     while True:
