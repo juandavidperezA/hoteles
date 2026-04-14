@@ -196,14 +196,7 @@ ingresa los siguientes datos:
     if not encontrado:
         print("hotel no encontrado")    
 
-        
-        
-        
-        
-        
-        
-        
-        
+
         
 def lista():
     
