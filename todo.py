@@ -3,7 +3,7 @@ import os
 base_dir=os.path.dirname(os.path.abspath(__file__))
 ruta= os.path.join(base_dir,"hoteles.json")
 
-
+#no se que hacwer
 def cuenta():
     usuario= "juandavidperezanaya@gmail.com"
     clave= "holaquehace12"
